@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "telcomovil"
+    }
+  },
+  "defaultProject": "telcomovil",
+  "cli": {
+    "analytics": "14dc75e2-774d-4d87-b21e-8ca0ee31f60f"
+  }
 }
