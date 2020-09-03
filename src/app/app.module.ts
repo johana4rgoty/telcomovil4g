@@ -18,6 +18,7 @@ import { Breadcrumbs4gComponent } from './shared4g/breadcrumbs4g/breadcrumbs4g.c
 import { Footer4gComponent } from './shared4g/footer4g/footer4g.component';
 import { Sliderbar4gComponent } from './shared4g/sliderbar4g/sliderbar4g.component';
 import { Header4gComponent } from './shared4g/header4g/header4g.component';
+import { Principal4gComponent } from './shared4g/principal4g/principal4g.component';
 
 @NgModule({
   declarations: [
@@ -37,13 +38,14 @@ import { Header4gComponent } from './shared4g/header4g/header4g.component';
     Breadcrumbs4gComponent,
     Footer4gComponent,
     Sliderbar4gComponent,
-    Header4gComponent
+    Header4gComponent,
+    Principal4gComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [Principal4gComponent] //componente que inicie
 })
 export class AppModule { }
