@@ -15,19 +15,19 @@ import { ResultadomovilComponent } from './resultadomovil/resultadomovil.compone
 
 
 const routes: Routes = [
-  {path: '', component:IniciomovilComponent},
-  {path: 'home', component:IniciomovilComponent},
-  {path: 'menup', component:MenuprinmovilComponent},
-  {path: 'escenario1', component:Escenario1movilComponent},
-  {path: 'escenario2', component:Escenario2movilComponent},
-  {path: 'foromovil', component:ForomovilComponent},
-  {path: 'gestorpruebas', component:GestorpruebasmovilComponent},
-  {path: 'gestorusuario', component:GestorusuariosmovilComponent},
-  {path: 'guiasmovil', component:GuiasmovilComponent},
-  {path: 'maquinasmovil', component:MaquinasmovilComponent},
+  {path: '', component: IniciomovilComponent},
+  {path: 'home', component: IniciomovilComponent},
+  {path: 'menup', component: MenuprinmovilComponent},
+  {path: 'escenario1', component: Escenario1movilComponent},
+  {path: 'escenario2', component: Escenario2movilComponent},
+  {path: 'foromovil/:uid', component: ForomovilComponent},
+  {path: 'gestorpruebas', component: GestorpruebasmovilComponent},
+  {path: 'gestorusuario', component: GestorusuariosmovilComponent},
+  {path: 'guiasmovil', component: GuiasmovilComponent},
+  {path: 'maquinasmovil', component: MaquinasmovilComponent},
   {path: 'pruebasmovil', component: PruebasmovilComponent},
   {path: 'redesmovil', component: RedesmovilComponent},
-  {path: 'resultadom', component:ResultadomovilComponent},
+  {path: 'resultadom', component: ResultadomovilComponent},
 
 
 ];

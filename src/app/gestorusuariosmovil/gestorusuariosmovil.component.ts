@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { User} from '../interfaces/user';
+import { UserService } from '../service/user.service';
 @Component({
   selector: 'app-gestorusuariosmovil',
   templateUrl: './gestorusuariosmovil.component.html',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GestorusuariosmovilComponent implements OnInit {
 
-  constructor() { }
+  invests: User[];
+  query: string ='';
+  constructor(private userService: UserService ) {
+    this.invests = userService.getInvests();
+  }
 
   ngOnInit(): void {
   }

@@ -1,8 +1,207 @@
-<a routerLink="/home" >Inicio</a> |
-<a routerLink="/menup" >Menu</a> |
-<a routerLink="/pruebasmovil" >Pruebas</a> |
-<a routerLink="/foromovil" >Foro</a> |
-<a routerLink="/guiasmovil" >Guias</a> |
-<a routerLink="/redesmovil" >Red 4G</a> |
-<router-outlet></router-outlet>
-jdslsm
+<!--Header
+http://aprendeenlinea.udea.edu.co/lms/moodle/course/index.php?categoryid=57
+-->
+<div class="banner">
+  <header>
+    <div class="logo">
+      <a href="http://www.unicauca.edu.co/versionP">
+        <img src="assets/img/unicaucalogoAz.png" alt="Unicauca">
+      </a>
+      <a>
+        <div id="titulo-logo">
+          <span>
+            Facultad de Ingenierías
+            <br>
+            TelcoMóvil
+          </span>
+        </div>
+      </a>
+    </div>
+    <nav id="main-menu" class="menu navbar navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="social-bar">
+        <div class="social">
+          <div class="icons">
+            <a target="_blank">
+              <img src="assets/img/facebook.png" alt="">
+            </a>
+            <a target="_blank">
+              <img src="assets/img/instagram.png" alt="">
+            </a>
+            <a target="_blank">
+              <img src="assets/img/twiter.png" alt="">
+            </a>
+          </div>
+          <div class="region region-menu-principal">
+              <div>
+                  <div id="search-block-form">
+                    <div class="container-inline">
+
+                        <button id="edit-submit--2" type="button" class="btn btn-login d-lg-inline-block mb-3 mb-md-0 ml-md-3" >
+                          <i class="fa fa-user-circle" aria-hidden="true"></i> Login
+                        </button>
+                        <!-- <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="/docs/4.3/getting-started/download/">Download</a> -->
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="menu_menu">
+          <div class="region region-menu-principal">
+            <div id="block-superfish-1" class="block block-superfish ">
+              <div>
+                <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-white superfish-processed sf-js-enabled" >
+                  <li id="menu-449-1" class="first sf-depth-1 menuparent">
+                    <a routerLink="/home"  class="sf-depth-1 menuparent">Inicio
+                    </a>
+                  </li>
+                  <li id="menu-219-1" menu-219-1 class="middle sf-depth-1 menuparent">
+                    <a routerLink="/menup" class="sf-depth-1 menuparent"> TelcoMóvil
+                    </a>
+                  </li>
+                  <li id="menu-450-1" class="middle sf-depth-1 menuparent">
+                    <a routerLink="/pruebasmovil"  class="sf-depth-1 menuparent">Pruebas</a>
+                  </li>
+                  <li id="menu-451-1" class="middle sf-depth-1 menuparent">
+                    <a routerLink="/guiasmovil" class="sf-depth-1 menuparent">Guias</a>
+                  </li>
+                  <li id="menu-451-1" class="middle sf-depth-1 menuparent">
+                    <a routerLink="/redesmovil" class="sf-depth-1 menuparent">Redes 4G</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+</div>
+ <!-- termina el componente header -->
+
+<!-- MAIN -->
+<div id="main-wrapper"><div id="main" class="clearfix">
+  <div class="tabs"></div>
+</div></div>
+
+<!-- CONTENIDO -->
+
+<div id="page" class="container-fluid">
+  <header id="page-header" class="clearfix">
+    <div id="breadcrumb_navbar" data-spy="affix" data-offset-top="170" class="affix-top">
+  <nav class="breadcrumb-button"></nav>
+  <span class="accesshide">Ruta a la página</span>
+  <ul class="breadcrumb">
+    <li><a >
+       Página Principal</a>
+      <span class="divider"><span class="accesshide ">
+        <span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">►</span> </span></li>
+    <li><a >Cursos</a>
+        <span class="divider"> <span class="accesshide ">
+          <span class="arrow_text">/</span>&nbsp;</span>
+           <span class="arrow sep">►</span> </span>
+    </li>
+
+      </ul>
+   </div>
+  <!--<h1>Aprende en Línea</h1> -->
+</header></div>
+
+<!-- contenido aside y informacion  -->
+<section class="section contenido">
+  <div class="left-menu">
+    <!-- ASIDE -->
+        <div class="region region-left-content-menu">
+          <ul id="superfish-6" class="menu sf-menu sf-menu-antropologia sf-vertical sf-style-none sf-total-items-4 sf-parent-items-0 sf-single-items-4 superfish-processed sf-js-enabled sf-shadow">
+            <li id="menu-506-6" class="first odd sf-item-1 sf-depth-1 sf-no-children">
+              <a href="/fchs/antropologia/mision-vision" class="sf-depth-1">Misión y Visión</a></li>
+              <li id="menu-504-6" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="/fchs/antropologia/perfil-egresado" class="sf-depth-1">Perfil del Egresado</a></li>
+              <li id="menu-505-6" class="middle odd sf-item-3 sf-depth-1 sf-no-children"><a href="/fchs/antropologia/plan-estudios" class="sf-depth-1">Plan de Estudios</a></li>
+              <li id="menu-687-6" class="last even sf-item-4 sf-depth-1 sf-no-children"><a href="/fchs/antropologia/coordinador" class="sf-depth-1">Coordinador del Programa</a></li></ul></div>
+  </div>
+  <!-- CONTENIDO -->
+  <div class="seccion-contenido">
+        <div class="region region-content">
+          <div id="block-system-main" class="block block-system">
+            <div>
+              <div class="titulo">Facultad de Ingenierías</div>
+  <p></p>
+  <div class="field field-name-field-resumen-programa field-type-text-long field-label-hidden">
+    <div class="field-items">
+      <div class="field-item even">
+        <p>Título que otorga: Ingeniero(a)</p>
+        <p>Ubicación: Popayán (Cauca)&nbsp;</p>
+        <p>Código SNIES Popayán: </p>
+        <p>Modalidad: Presencial</p>
+        <p>Jornada: Diurna</p>
+        <p>Admisión: </p>
+        <p>Duración: 10 semestres</p></div></div></div>
+<p></p>
+
+</div></div></div>
+                  </div>
+</section>
+
+<!-- temina aside -->
+
+<!-- IMAGEN  -->
+<section style="background-image: url(assets/img/FCHS3.jpg);">
+  <div id="contacto" class="section fondo-imagen-azul">
+      <div class="titulo-seccion">CONTACTO</div>
+      <article class="contacto">
+        <div class="titulo-contacto">Facultad de ingeniería electrónica y
+        <br>   Telecomunicaciónes</div>
+        <div class="contenido-contacto">
+          <p></p>
+          <div class="region region-contacto-footer">
+            <div id="block-block-2" class="block block-block">
+              <div>
+                <p>Ingenierías.<br>
+                    Calle 4 Nº 3-56.<br>
+                    Tulcan.<br>
+                    Teléfono: 8209&nbsp;ext. 14, 14.<br>
+                    Correo electrónico: <a href="Francisco Jose Pino Correa:fjpino@unicauca.edu.co">fjpino@unicauca.edu.co</a></p>
+                <!-- <p>&nbsp;</p> -->
+                <p>Escríbele al Decano: <a href="Francisco Jose Pino Correa: fjpino@unicauca.edu.co:">fjpino@unicauca.edu.co</a></p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <p></p>
+          <div>
+            <div class="social-footer">
+                <a href="http://www.facebook.com" target="_blank"><img src="assets/img/facebook-w.png"></a>
+                <a href="http://www.instagram.com" target="_blank"><img src="assets/img/instagram-w.png"></a>
+                <a href="http://www.twitter.com" target="_blank"><img src="assets/img/twiter-w.png"></a>
+            </div>
+        </div>
+        </div>
+      </article>
+      <div class="logo-footer">
+        <img src="assets/img/PDD.png">
+      </div>
+  </div>
+</section>
+<!-- TERMINA IMAGEN -->
+
+<!-- footer -->
+<footer>
+  <div class="region region-footer">
+    <div id="block-block-5" class="block block-block">
+      <div>
+    <p>Universidad del Cauca | Vigilada Mineducación<br>
+      Popayán, Colombia | NIT 891500319-2</p>
+    </div>
+</div>
+</div>
+<div class="sellos">
+<img src="assets/img/unicauca.png">
+<img src="assets/img/iso9001.png">
+<img src="assets/img/incontec.png">
+</div>
+</footer>

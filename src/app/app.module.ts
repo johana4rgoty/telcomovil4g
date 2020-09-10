@@ -19,6 +19,9 @@ import { Footer4gComponent } from './shared4g/footer4g/footer4g.component';
 import { Sliderbar4gComponent } from './shared4g/sliderbar4g/sliderbar4g.component';
 import { Header4gComponent } from './shared4g/header4g/header4g.component';
 import { Principal4gComponent } from './shared4g/principal4g/principal4g.component';
+import { SearchPipe} from './pipe/search';
+import { FormsModule} from '@angular/forms';
+import { AsideComponent } from './shared4g/aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -39,11 +42,14 @@ import { Principal4gComponent } from './shared4g/principal4g/principal4g.compone
     Footer4gComponent,
     Sliderbar4gComponent,
     Header4gComponent,
-    Principal4gComponent
+    Principal4gComponent,
+    SearchPipe,
+    AsideComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [Principal4gComponent] //componente que inicie

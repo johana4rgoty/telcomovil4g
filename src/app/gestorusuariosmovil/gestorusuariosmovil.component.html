@@ -1,1 +1,7 @@
-<p>gestorusuariosmovil works!</p>
+<input type="text" placeholder="Buscar Usuario" [(ngModel)]="query">
+<br/>
+<ng-container *ngFor="let user of invests | search: query; let i = index";>
+    {{i}} | {{user.name}} {{user.email}}
+</ng-container>
+
+

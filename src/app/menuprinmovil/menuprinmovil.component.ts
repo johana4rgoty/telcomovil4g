@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../interfaces/user';
 
 @Component({
   selector: 'app-menuprinmovil',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuprinmovilComponent implements OnInit {
 
-  constructor() { }
+   constructor() {
+
+  }
 
   ngOnInit(): void {
   }
