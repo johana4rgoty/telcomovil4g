@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { CollapseComponent } from 'node_modules/bootstrap';
+import { Component, OnInit, AfterViewInit, ViewChildren } from '@angular/core';
+
 
 @Component({
   selector: 'app-principal4g',
@@ -7,9 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Principal4gComponent implements OnInit {
 
+  public isCollapsed = false;
   constructor() { }
-
-  ngOnInit(): void {
-  }
+     ngOnInit(): void {
+   }
 
 }
