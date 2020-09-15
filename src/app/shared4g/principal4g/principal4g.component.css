@@ -466,10 +466,12 @@ a {
 }
 .bd-sidebar .nav>li>a {
   display: block;
-  padding: 4px 20px;
+  padding: 4px 18px;
   font-size: 100%;
-  color: rgba(0,0,0,.65);
+  /* color: rgba(0,0,0,.65); */
+  color: #1B3357;
   text-align: left;
+
 }
 /* .bd-sidebar .nav>li {
 
@@ -492,8 +494,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* border: solid 2px #77170E; */
 }
 .section {
-  padding-left: 40px;
-  padding-right: 40px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
   width: 100%;
   overflow: auto;
   min-height: max-content;
@@ -955,33 +957,38 @@ ul {
 }
 
 .row {
-  display: -ms-flexbox;
   display: flex;
+  width: 100%;
   /* font-size: 3rem; */
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  /* margin-right: -15px;
-  margin-left: -15px; */
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 
 
 .bd-sidebar {
-  -ms-flex: 0 1 320px;
-  flex: 0 1 320px;
-  /* flex-basis: 0;
-  flex-grow: 1; */
+  /* flex: 1 1 320px; */
+  flex: 1 1 auto;
+  padding-left: 0;
+  width: 100%;
+  /* Esto:
+  flex : 0 1 auto;
+  /* Es lo mismo que esto:
+  flex-grow : 1; se expanda todo
+  flex-shrink : 1; cambia de tamaño con el navegador
+ flex-basis : auto*/
 
 }
 
 
-/* .bd-sidebar {
+.bd-sidebar {
   position: -webkit-sticky;
   position: sticky;
   top: 4rem;
   z-index: 1000;
   height: calc(100vh - 4rem);
-} */
+}
 
 .bd-sidebar {
   border-right: 1px solid rgba(0,0,0,.1);
@@ -992,46 +999,26 @@ ul {
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .bd-toc {
-  position: -webkit-sticky;
   position: sticky;
   top: 4rem;
   height: calc(100vh - 4rem);
   overflow-y: auto;
 }
 .bd-toc {
- -ms-flex-order: 2;
   order: 2;
-  /* flex-basis: 0;
-  flex-grow: 1; */
+  flex-basis: auto;
+  flex-grow: 0;
+  /* width: 200px; */
+  flex-shrink : 1;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   font-size: .875rem;
+
 }
 .d-xl-block {
-
   display: block!important;
 }
-/* .col-xl-2 {
-  -ms-flex: 0 0 20.666667%;
-  /* flex: 0 0 16.666667%;
-  flex: 0 0 20.666667%;
-  max-width: 20.666667%;
-} */
-.col-xl-2 {
-  flex: 0 0 25.666667%;
-  max-width: 25.666667%;
-}
 
- .col-md-3 {
-  -ms-flex: 0 0 40%;
-   flex: 0 0 120%;
-  max-width: 40%;
-}
-/* .col-12 {
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  max-width: 100%;
-} */
 .section-nav {
   padding-left: 0;
   border-left: 1px solid #eee;
@@ -1046,99 +1033,11 @@ ul {
   color: #77757a;
 }
 .bd-content {
-  -ms-flex-order: 1;
   order: 1;
-  /* flex-grow: 1;
-  flex-basis: 0; */
-}
-.pl-md-5, .px-md-5 {
-  padding-left: 3rem!important;
+  flex-grow: 1;
+  flex-basis: auto;
 }
 
-.pb-md-3, .py-md-3 {
-  padding-bottom: 1rem!important;
-}
-.pt-md-3, .py-md-3 {
-  padding-top: 1rem!important;
-}
- .col-xl-8 {
-  -ms-flex: 0 0 66.666667%;
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
-}
- .col-md-9 {
-  -ms-flex: 0 0 75%;
-  flex: 0 0 130%;
-  max-width: 75%;
-  max-width: 130%;
-}
- /* .col-12 {
-  -ms-flex: 0 0 100%;
-  /* flex: 0 0 100%;
-  /* max-width: 100%;
-} */
 
 /* iconos */
 
-@font-face {
-  font-family: 'fontello';
-  src: url('/telcomovil4g/src/assets/icon/icon/fontello.eot?92521958');
-  src: url('/telcomovil4g/src/assets/icon/fontello.eot?92521958#iefix') format('embedded-opentype'),
-       url('/telcomovil4g/src/assets/icon/fontello.woff2?92521958') format('woff2'),
-       url('/telcomovil4g/src/assets/icon/fontello.woff?92521958') format('woff'),
-       url('/telcomovil4g/src/assets/icon/fontello.ttf?92521958') format('truetype'),
-       url('/telcomovil4g/src/assets/icon/fontello.svg?92521958#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?92521958#fontello') format('svg');
-  }
-}
-*/
-
- [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: never;
-
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
-
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
-
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-}
-
-.icon-chart-bar:before { content: '\e800'; } /* '' */
-.icon-clipboard:before { content: '\e801'; } /* '' */
-.icon-chart-area:before { content: '\f1fe'; } /* '' */
-.icon-chart-pie:before { content: '\f200'; } /* '' */
-.icon-chart-line:before { content: '\f201'; } /* '' */
