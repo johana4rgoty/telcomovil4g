@@ -1,264 +1,34 @@
-<!--Header
-http://aprendeenlinea.udea.edu.co/lms/moodle/course/index.php?categoryid=57
--->
 <div class="banner">
   <header>
-    <div class="logo">
-      <a href="http://www.unicauca.edu.co/versionP">
-        <img src="assets/img/unicaucalogoAz.png" alt="Unicauca">
-      </a>
-      <a>
-        <div id="titulo-logo">
-          <span>
-            Facultad de Ingenierías
-            <br>
-            TelcoMóvil
-          </span>
-        </div>
-      </a>
-    </div>
-    <nav id="main-menu" class="menu navbar navbar-expand-lg">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="social-bar">
-        <div class="social">
-          <div class="icons">
-            <a target="_blank">
-              <img src="assets/img/facebook.png" alt="">
-            </a>
-            <a target="_blank">
-              <img src="assets/img/instagram.png" alt="">
-            </a>
-            <a target="_blank">
-              <img src="assets/img/twiter.png" alt="">
-            </a>
-          </div>
-          <div class="region region-menu-principal">
-              <div>
-                  <div id="search-block-form">
-                    <div class="container-inline">
-
-                        <button id="edit-submit--2" type="button" class="btn btn-login d-lg-inline-block mb-3 mb-md-0 ml-md-3" >
-                          <i class="fa fa-user-circle" aria-hidden="true"></i> Login
-                        </button>
-                        <!-- <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="/docs/4.3/getting-started/download/">Download</a> -->
-                    </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-        <div class="menu_menu">
-          <div class="region region-menu-principal">
-            <!-- <div id="block-superfish-1" class="block block-superfish "> -->
-            <div id="block-superfish-1">
-              <div>
-                <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-white superfish-processed sf-js-enabled" >
-                  <li id="menu-449-1" class="first sf-depth-1 menuparent">
-                    <a routerLink="/home"  class="sf-depth-1 menuparent">Inicio
-                    </a>
-                  </li>
-                  <li id="menu-219-1" menu-219-1 class="middle sf-depth-1 menuparent">
-                    <a routerLink="/menup" class="sf-depth-1 menuparent"> TelcoMóvil
-                    </a>
-                  </li>
-                  <li id="menu-450-1" class="middle sf-depth-1 menuparent">
-                    <a routerLink="/pruebasmovil"  class="sf-depth-1 menuparent">Pruebas</a>
-                  </li>
-                  <li id="menu-451-1" class="middle sf-depth-1 menuparent">
-                    <a routerLink="/guiasmovil" class="sf-depth-1 menuparent">Guias</a>
-                  </li>
-                  <li id="menu-451-1" class="middle sf-depth-1 menuparent">
-                    <a routerLink="/redesmovil" class="sf-depth-1 menuparent">Redes 4G</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-
+    <app-header4g></app-header4g>
   </header>
-
 </div>
- <!-- termina el componente header -->
+<!-- termina el componente header -->
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
       <aside id="block-region-side-pre" class="span4 desktop-first-column block-region">
-        <!-- <a href="#sb-1" class="skip-block">Saltar Navegación</a> -->
-        <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        </a >
-        <div id="inst54477" class="block_navigation  block hidden" role="navigation" data-block="navigation" data-instanceid="54477" aria-labelledby="instance-54477-header">
-          <div class="header">
-            <div class="title" id="yui_3_15_0_3_1599769363053_454">
-            <div class="block_action">
-              <!-- <img class="block-hider-hide " alt="Ocultar bloque Navegación" src="" title="Ocultar bloque Navegación"> -->
-              <i class="fas fa-angle-up block-hider-hide" ></i>
-              <!-- <img class="block-hider-show" alt="Mostrar bloque Navegación" src="" title="Mostrar bloque Navegación"> -->
-              <i class="fas fa-angle-down block-hider-show"></i>
-            </div>
-            <h2 id="instance-54477-header">Menu Principal</h2>
-          </div>
-        </div>
-        <div class="content">
-          <div class="bd-toc-item">
-            <!-- <a class="bd-toc-link" href="/docs/4.3/components/alerts/">
-              Menu Principa
-            </a> -->
-
-            <ul class="nav bd-sidenav">
-              <li>
-                  <a routerLink="/home" >
-                    <i class="fa fa-home" aria-hidden="true"></i>
-                    Inicio
-                  </a>
-                </li><li>
-                  <a routerLink="/home" >
-                    <i class="fa fa-book" aria-hidden="true"></i>
-                    Guias
-                  </a>
-                </li><li>
-                  <a routerLink="/home" >
-                    <i class="fa fa-cog" aria-hidden="true"></i>
-                    <!-- <i class="icon-clipboard" ></i> -->
-                    Pruebas
-                  </a>
-                </li><li>
-                  <a routerLink="/home" >
-                    <i class="fa fa-cogs" aria-hidden="true"></i>
-                    <!-- <i class="icon-clipboard" ></i> -->
-                    Gestor Pruebas
-                  </a>
-                </li>
-                 <!--  <li>
-                  <a href="/docs/4.3/components/buttons/">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    Gestor Usuario
-                  </a>
-                </li>
-                <li>
-                  <a href="/docs/4.3/components/buttons/">
-                    <i class="fa fa-desktop" aria-hidden="true"></i>
-                    Maquinas
-                  </a>
-                </li>-->
-              </ul>
-          </div>
-
-      </div>
-
-      </div>
-
-
-</aside>
-
+        <app-asideleft4g></app-asideleft4g>
+      </aside>
     </div>
-     <div class="d-none d-xl-block col-xl-2 bd-toc">
-      <ul class="section-nav">
-        <li class="toc-entry toc-h2"><a href="#how-it-works">How it works</a></li>
-        <li class="toc-entry toc-h2"><a href="#supported-content">Supported content</a>
-        <ul>
-        <li class="toc-entry toc-h3"><a href="#brand">Brand</a></li>
-        <li class="toc-entry toc-h3"><a href="#nav">Nav</a></li>
-        <li class="toc-entry toc-h3"><a href="#forms">Forms</a></li>
-        <li class="toc-entry toc-h3"><a href="#text">Text</a></li>
-        </ul>
-        </li>
-        <li class="toc-entry toc-h2"><a href="#color-schemes">Color schemes</a></li>
-        <li class="toc-entry toc-h2"><a href="#containers">Containers</a></li>
-        <li class="toc-entry toc-h2"><a href="#placement">Placement</a></li>
-        <li class="toc-entry toc-h2"><a href="#responsive-behaviors">Responsive behaviors</a>
-        <ul>
-        <li class="toc-entry toc-h3"><a href="#toggler">Toggler</a></li>
-        <li class="toc-entry toc-h3"><a href="#external-content">External content</a></li>
-        </ul>
-        </li>
-        </ul>
 
+    <div class="d-none d-xl-block col-xl-2 bd-toc">
+      <app-aside></app-aside>
     </div>
+
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
-      <section class="section contenido">
-        <!-- CONTENIDO -->
-        <div class="seccion-contenido">
-              <div class="region region-content">
-                <!-- <div id="block-system-main" class="block block-system"> -->
-                 <router-outlet></router-outlet>
-
-                </div>
-
-
-                        </div>
-      </section>
-
+      <router-outlet></router-outlet>
     </main>
-
   </div>
-
-
 </div>
 
 <!-- IMAGEN  -->
-<section style="background-image: url(assets/img/FCHS3.jpg);">
-  <div id="contacto" class="section fondo-imagen-azul">
-      <div class="titulo-seccion">CONTACTO</div>
-      <article class="contacto">
-        <div class="titulo-contacto">Facultad de ingeniería electrónica y
-        <br>   Telecomunicaciónes</div>
-        <div class="contenido-contacto">
-          <p></p>
-          <div class="region region-contacto-footer">
-            <!-- <div id="block-block-2" class="block block-block"> -->
-            <div id="block-block-2" >
-              <div>
-                <p>Ingenierías.<br>
-                    Calle 4 Nº 3-56.<br>
-                    Tulcan.<br>
-                    Teléfono: 8209&nbsp;ext. 14, 14.<br>
-                    Correo electrónico: <a>fjpino@unicauca.edu.co</a></p>
-                <!-- <p>&nbsp;</p> -->
-                <p>Escríbele al Decano: <a>fjpino@unicauca.edu.co</a></p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-              </div>
-            </div>
-          </div>
-          <p></p>
-          <div>
-            <div class="social-footer">
-                <a href="http://www.facebook.com" target="_blank"><img src="assets/img/facebook-w.png"></a>
-                <a href="http://www.instagram.com" target="_blank"><img src="assets/img/instagram-w.png"></a>
-                <a href="http://www.twitter.com" target="_blank"><img src="assets/img/twiter-w.png"></a>
-            </div>
-        </div>
-        </div>
-      </article>
-      <div class="logo-footer">
-        <img src="assets/img/PDD.png">
-      </div>
-  </div>
+<section  class="footer-fondo">
+  <app-contacto4g></app-contacto4g>
 </section>
 <!-- TERMINA IMAGEN -->
 
-
-
-
-
 <!-- footer -->
-<footer>
-  <div class="region region-footer">
-    <!-- <div id="block-block-5" class="block block-block"> -->
-    <div>
-      <div>
-    <p>Universidad del Cauca | Vigilada Mineducación<br>
-      Popayán, Colombia | NIT 891500319-2</p>
-    </div>
+<div >
+  <app-footer4g></app-footer4g>
 </div>
-</div>
-<div class="sellos">
-<img src="assets/img/unicauca.png">
-<img src="assets/img/iso9001.png">
-<img src="assets/img/incontec.png">
-</div>
-</footer>

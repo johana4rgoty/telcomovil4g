@@ -12,6 +12,7 @@ import { MaquinasmovilComponent } from './maquinasmovil/maquinasmovil.component'
 import { PruebasmovilComponent } from './pruebasmovil/pruebasmovil.component';
 import { RedesmovilComponent } from './redesmovil/redesmovil.component';
 import { ResultadomovilComponent } from './resultadomovil/resultadomovil.component';
+import { LoginmovilComponent } from './loginmovil/loginmovil.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,8 @@ const routes: Routes = [
   {path: 'pruebasmovil', component: PruebasmovilComponent},
   {path: 'redesmovil', component: RedesmovilComponent},
   {path: 'resultadom', component: ResultadomovilComponent},
+  {path: 'login', component: LoginmovilComponent},
+   
 
 
 ];

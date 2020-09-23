@@ -1,0 +1,368 @@
+/*aside */
+
+.bd-toc-link {
+  display: block;
+  padding: .2rem 1.5rem;
+  font-weight: 600;
+  color: rgba(0,0,0,.65) !important;
+  text-align: center;
+}
+.nav {
+  display: -ms-flexbox;
+  display: flex ;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.bd-toc-item.active>.bd-sidenav {
+  display: block;
+}
+.bd-sidenav {
+  /* display: none; */
+}
+.bd-sidebar .nav>li>a {
+  display: block;
+  padding: 4px 18px;
+  font-size: 100%;
+  /* color: rgba(0,0,0,.65); */
+  color: #1B3357;
+  text-align: left;
+
+}
+.nav>li>a {
+  display: block;
+  padding: 4px 18px;
+  font-size: 100%;
+  /* color: rgba(0,0,0,.65); */
+  color: #1B3357;
+  text-align: left;
+
+}
+ .nav>li>a:hover {
+  background: #b7b4b4 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #77170E !important;
+  }
+.bd-sidebar .nav>li>a:hover {
+background: #b7b4b4 !important;
+font-weight: bold;
+border-bottom: 2px solid #77170E !important;
+}
+
+
+/* .bd-sidebar .nav>li {
+
+  margin: auto;
+  justify-content: left;
+} */
+
+/* aside */
+.content{
+  height: 22rem;
+}
+a.skip-block, a.skip {
+  position: absolute;
+  top: -1000em;
+  font-size: .85em;
+  text-decoration: none;
+}
+div.block {
+  padding: 0px 0px 0px 0px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.14);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.14);
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.14);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-right: 15px;
+  width: 210px;
+}
+.block {
+  background-color: #FFFFFF;
+  border-radius: 1px 1px 1px 1px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+  padding-bottom: 5px;
+  border-radius: 2px;
+}
+
+.block {
+  min-height: 20px;
+  padding: 19px;
+  padding: 8px 0;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-color: #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+.block.hidden .header .block_action .block-hider-hide {
+  display: none;
+}
+.block .header .block_action .block-hider-show, .block .header .block_action .block-hider-hide {
+  cursor: pointer;
+}
+.mdl-left, .dir-rtl .mdl-right {
+  text-align: left;
+}
+.block .header .block_action>* {
+  margin-left: 3px;
+}
+i.section.hidden, .block.hidden, .block.invisible {
+  display: block;
+  visibility: visible;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+li.section.hidden, .block.hidden, .block.invisible {
+  display: block;
+  visibility: visible;
+}
+div.block .header {
+  color: #fff;
+  background: #77170E;
+  /* background-image: url(/lms/moodle/theme/image.php?theme=aardvark_academica&component=theme&image=degradados%2Fblq_rep1); */
+  background-repeat: repeat-x;
+  margin: 0;
+  padding: 8px 8px 8px 8px;
+  border: none;
+  -webkit-border-radius: 6px 6px 0px 0px;
+  -moz-border-radius: 6px 6px 0px 0px;
+  border-radius: 6px 6px 0px 0px;
+}
+.block .header .block_action {
+  float: right;
+  padding: 3px 15px;
+}
+
+.block .header .block_action>* {
+  margin-left: 3px;
+}
+.block .header .title h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+}
+/* .block .header .title h2, .block h3.main {
+    font-weight: normal;
+    text-shadow: none;a
+} */
+.block .header h2 {
+  color: #FFF;
+  text-transform: none;
+}
+.block.hidden .header .block_action .block-hider-show {
+  display: inline;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.block .header .block_action .block-hider-show {
+  display: none;
+}
+.block .header h2 {
+  display: block;
+  padding: 0px;
+  margin: 0;
+  font-size: 11px;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 20px;
+  color: #999;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+div.block .content {
+  /* background-image: url(/lms/moodle/theme/image.php?theme=aardvark_academica&component=theme&image=degradados%2Fblq_arrow); */
+  background-repeat: no-repeat;
+  padding-top: 15px;
+}
+.block .content {
+    padding: 4px 14px;
+    word-wrap: break-word;
+}
+.unlist, .unlist li, .inline-list, .inline-list li, .block .list, .block .list li, .section li.activity, .section li.movehere, .tabtree li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.block_navigation .block_tree {
+  margin: 5px;
+  padding-left: 0px;
+  overflow: visible;
+}
+
+/*ul, ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+ ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+} */
+.block .content {
+  padding: 4px 14px;
+  word-wrap: break-word;
+}
+.unlist, .unlist li, .inline-list, .inline-list li, .block .list, .block .list li, .section li.activity, .section li.movehere, .tabtree li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.block_navigation .block_tree li {
+  margin: 3px;
+  list-style: none;
+  padding: 0;
+}
+li {
+  line-height: 20px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.jsenabled .block_navigation .block_tree .tree_item.branch {
+  cursor: pointer;
+}
+.block_navigation .block_tree .tree_item.branch.navigation_node {
+  background-image: none;
+  padding-left: 0;
+}
+.block_navigation .block_tree li ul {
+  padding-left: 0;
+  margin: 0;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.unlist, .unlist li, .inline-list, .inline-list li, .block .list, .block .list li, .section li.activity, .section li.movehere, .tabtree li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.block_navigation .block_tree li {
+  margin: 3px;
+  list-style: none;
+  padding: 0;
+}
+.block_navigation .block_tree li.item_with_icon > p {
+  position: relative;
+  padding-left: 21px;
+}
+.block_navigation .block_tree li {
+  margin: 3px;
+  list-style: none;
+  padding: 0;
+}
+.unlist, .unlist li, .inline-list, .inline-list li, .block .list, .block .list li, .section li.activity, .section li.movehere, .tabtree li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* diseño dividir en tres partes */
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+}
+
+.flex-xl-nowrap {
+  -ms-flex-wrap: nowrap!important;
+  flex-wrap: nowrap!important;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  /* font-size: 3rem; */
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+
+.bd-sidebar {
+  /* flex: 1 1 320px; */
+  flex: 1 1 auto;
+  padding-left: 0;
+  width: 100%;
+  /* Esto:
+  flex : 0 1 auto;
+  /* Es lo mismo que esto:
+  flex-grow : 1; se expanda todo
+  flex-shrink : 1; cambia de tamaño con el navegador
+ flex-basis : auto*/
+
+}
+
+
+.bd-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4rem;
+  z-index: 1000;
+  height: calc(100vh - 4rem);
+}
+
+.bd-sidebar {
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+.bd-sidebar {
+   -ms-flex-order: 0;
+    order: 0;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+  .bd-sidenav {
+    /* display: none; */
+  }
+  .bd-sidebar .nav>li>a {
+    display: block;
+    padding: 4px 18px;
+    font-size: 100%;
+    /* color: rgba(0,0,0,.65); */
+    color: #1B3357;
+    text-align: left;
+
+  }
+  .bd-sidebar .nav>li>a:hover {
+  background: #b7b4b4 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #77170E !important;
+  }
+
+

@@ -1,0 +1,351 @@
+#login-back{
+  background: url(/assets/img/fietver1.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: #77170E;
+  background-size: cover;
+  /* bottom: 0;
+  height: auto;
+  width: 100%;
+  top: 0;
+  left: 0; */
+}
+header{
+  background-color: white;
+}
+
+/* nav */
+.container-fluid {
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#page-header {
+  background-color: white;
+  border-bottom: solid 3px #77170E;
+  clear: both;
+  color: #77170E;
+  margin-bottom: 0;
+}
+#page {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  max-width: inherit;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.align-items-start {
+  align-items: flex-start!important;
+}
+.d-flex {
+  display: flex!important;
+}
+
+/* CPNTENT */
+#page-content {
+  padding: 12px 0 20px;
+  position: relative;
+  width: auto;
+}
+#page-content {
+  overflow: visible;
+}
+
+#page-content #region-main {
+  overflow: hidden;
+}
+.pagelayout-login #region-main {
+  border: 0;
+  background-color: inherit;
+}
+/* #region-main {
+  overflow-x: auto;
+  overflow-y: visible;
+  border: 1px solid rgba(0,0,0,.125);
+  padding: 1.25rem;
+  /* background-color: #fff;
+} */
+#maincontent {
+  display: block;
+  height: 1px;
+  overflow: hidden;
+}
+
+.justify-content{
+  justify-content:center;
+  padding:25px;
+}
+
+#page-login-index #page-navbar, #page-login-index .card {
+  background-color: rgba(255,255,255,.7)!important;
+}
+#page-login-index .outercont {
+  padding: 0!important;
+  margin: 0!important;
+}
+.container .outercont{
+height: fit-content;
+}
+.card{
+  background-color: rgba(255,255,255,.7)!important;
+  /* opacity: 80%; */
+  /* width: 400px; */
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+#page-login-index .card-body {
+  text-align: center;
+  padding: 45px;
+}
+#page-login-index .card-header {
+  display: none !important;
+}
+.card-body{
+  padding: 0 1.25rem 1.25rem 1.25rem;
+}
+.card-h img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+/* form */
+input, button, select, textarea {
+  color: #333;
+  font-family: Roboto,sans-serif;
+  font-size: 95%;
+  font-weight: 400!important;
+}
+.form-group, .form-buttons, .path-admin .buttons, .fp-content-center form+div, div.backup-section+form {
+  margin-bottom: 1rem;
+}
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-left: 5px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+.mt-3, .my-3 {
+  margin-top: 1rem!important;
+}
+.btn-login{
+  background-color: #1B3357;
+  color: white;
+}
+#loginbtn, #guestlogin .btn {
+  height: 50px;
+  font-size: larger;
+}
+a, a:visited, .tabtree .tabrow0 li a {
+  color: #77170E;
+  text-decoration: none;
+}
+#reg{
+  border: transparent;
+  background-color: transparent;
+  color: #1B3357;
+  margin-left: 20px;
+  padding: 0px;
+}
+
+#reg:hover{
+border-bottom: 3px solid #1B3357;
+
+}
+
+
+
+
+.form-re{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+/* nooo */
+/* #login-back{
+  background: url(/assets/img/fietver1.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: #77170E !important;
+  /* background-size: 100%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /* font-family: "Vegur", "Arial Narrow", Arial, sans-serif !important;
+  bottom: 0;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+#antorcha img{
+  position: fixed;
+  height: 500px;
+  right: 5%;
+  top: 15%;
+  width: 400px;
+  /* opacity: 50%;
+}
+#bandera {
+  background: url(/assets/img/bandera.png) no-repeat;
+  width: 345px;
+  height: 130px;
+  position: fixed;
+  /* z-index: -1; */
+  /* left: 80%;
+  bottom: 0;
+}
+header {
+  display: table !important;
+  margin: 0px auto 5px !important;
+  padding-top: 50px;
+}
+#logoU {
+  background: url(/assets/img/logo.png) no-repeat;
+  width: 188px;
+  height: 92px;
+  float: left;
+  margin-right: 10px;
+}
+a, a:visited {
+  color: #333;
+  text-decoration: underline;
+  outline: 0;
+}
+header .separador {
+  background: url(/assets/img/barra.png) no-repeat;
+  width: 2px;
+  height: 40px;
+  float: left;
+  margin: 25px 10px 0 0;
+}
+
+#desc {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 17px;
+  color: #FFFFFF;
+  padding-top: 27px;
+  width: 235px;
+  float: left;
+}
+p {
+  margin: 0 0 10px;
+}
+
+.container {
+  width: auto !important;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+#general {
+  margin: auto auto 20px auto;
+  display: table;
+}
+#login {
+  background: url(/assets/img/back-login.png) no-repeat;
+  padding: 35px 20px 0;
+  width: 370px;
+  display: inline-block;
+  height: 344px;
+  margin-top: 25px;
+}
+#logoTelco {
+  background: url(/assets/img/iconotelcoAT.png) no-repeat;
+  width: 156px;
+  height: 70px;
+  margin: 40px auto 10px;
+}
+#login h3 {
+  font-size: 16px;
+  color: #77170E;
+}
+#login h3, #login form {
+  display: table !important;
+  margin: auto !important;
+}
+h3, h5 {
+  font-family: "Vegur", "Arial Narrow", Arial, sans-serif !important;
+  margin: 0 !important;
+  font-weight: normal !important;
+}
+#login form input {
+  border: 2px solid #E5E5E8 !important;
+  font-size: 14px !important;
+  color: #999999 !important;
+  height: 18px !important;
+  padding-left: 40px !important;
+  width: 180px !important;
+  height: 22px !important;
+}
+
+#login form input:hover {
+  box-shadow: 0px 0px 5px 1px rgb(190, 39, 39);
+  /* box-shadow: rgba(121,121,121,.35) 1px 10px 20px;
+  transition: 0.2s;
+
+}
+
+
+input, textarea, .uneditable-input {
+  margin-left: 0;
+}
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+div.campo {
+  position: relative;
+}
+.botonIngresarClass {
+  /* border: 5px !important;
+  border-radius: 20px !important;
+  width: 100px !important;
+  height: 37px !important;
+  margin: 5px auto 10px !important;
+  display: block !important;
+  color: #555555 !important;
+  font-size: 12px !important;
+  box-shadow: none !important;
+}
+footer {
+  margin: auto;
+  display: table;
+}
+footer p, footer p a, footer p a:hover, footer p a:visited {
+  font-size: 16px;
+  color: #FFFFFF;
+} */

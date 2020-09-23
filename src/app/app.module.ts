@@ -1,3 +1,4 @@
+import { CollapseComponent } from 'node_modules/bootstrap';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
@@ -22,6 +23,9 @@ import { Principal4gComponent } from './shared4g/principal4g/principal4g.compone
 import { SearchPipe} from './pipe/search';
 import { FormsModule} from '@angular/forms';
 import { AsideComponent } from './shared4g/aside/aside.component';
+import { LoginmovilComponent } from './loginmovil/loginmovil.component';
+import { Contacto4gComponent } from './shared4g/contacto4g/contacto4g.component';
+import { Asideleft4gComponent } from './shared4g/asideleft4g/asideleft4g.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +48,10 @@ import { AsideComponent } from './shared4g/aside/aside.component';
     Header4gComponent,
     Principal4gComponent,
     SearchPipe,
-    AsideComponent
+    AsideComponent,
+    LoginmovilComponent,
+    Contacto4gComponent,
+    Asideleft4gComponent
   ],
   imports: [
     BrowserModule,
